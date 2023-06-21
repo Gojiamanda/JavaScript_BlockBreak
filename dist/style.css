@@ -1,0 +1,51 @@
+body{
+  background:linear-gradient(100deg,#76ad8d,#98b8a5);
+  display: flex;
+}
+
+.textBox{
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  width: 420px;;
+  height:auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  margin: .1em;
+}
+
+h2{
+  margin: 0;
+}
+
+canvas{
+  background: black;
+}
+
+.Field{
+  color: white;
+  background-color: black;
+	height: 150px;
+	width:160px;
+	padding: 10px 15px;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+
+.buttonField{
+  color: white;
+  background-color: black;
+	height: 150px;
+	width:350px;
+	padding: 10px 15px;
+	margin: 10px 20px;
+	border-radius: 10px;
+}
+
+.buttonField:hover{
+  background-color: gray;
+  opacity: 0.8;
+}
